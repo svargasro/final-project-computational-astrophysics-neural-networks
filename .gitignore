@@ -1,0 +1,86 @@
+# =====================================================================
+# DATOS ASTRONÓMICOS Y CATÁLOGOS PESADOS
+# =====================================================================
+# Archivos estándar FITS (imágenes, espectros, tablas)
+*.fits
+*.fit
+*.fts
+*.fits.gz
+
+# Formatos de catálogos y datos astronómicos modernos
+*.asdf
+*.vot
+*.cdf
+*.cat
+
+# =====================================================================
+# MATRICES Y FORMATOS BINARIOS DE DATOS (NumPy, HDF5, Pandas)
+# =====================================================================
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.parquet
+*.feather
+*.pkl
+*.pickle
+
+# =====================================================================
+# MODELOS DE MACHINE LEARNING Y PESOS DE REDES NEURONALES
+# =====================================================================
+*.keras
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.safetensors
+# Modelos h5 específicos si los guardas sueltos
+Estándar_NN.h5
+
+# =====================================================================
+# CARPETAS DE DATOS LOCALES Y DESCARGAS
+# =====================================================================
+# Carpetas de datos locales (como la que creamos en Colab)
+datos_espectros/
+data/
+raw_data/
+processed_data/
+downloads/
+output/
+results/
+
+# Caché local de Astropy / Astroquery si se genera en el proyecto
+.astropy/
+
+# =====================================================================
+# COMPRESIÓN Y ARCHIVOS GRANDES
+# =====================================================================
+*.zip
+*.tar
+*.gz
+*.bz2
+*.7z
+*.rar
+
+# =====================================================================
+# ENTORNOS DE PYTHON, JUPYTER Y ARCHIVOS SISTEMA
+# =====================================================================
+# Caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Checkpoints de Jupyter Notebooks / Google Colab
+.ipynb_checkpoints/
+
+# Entornos virtuales
+env/
+venv/
+ENV/
+.venv
+
+# Configuración de sistema operativo
+.DS_Store
+Thumbs.db
+*.log
+.env
